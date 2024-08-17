@@ -41,13 +41,8 @@ CUDA_VISIBLE_DEVICES=0 python evaluate_depth.py --data_path <your_data_path> --l
 
 ## Quantitative and qualitative results
 
-<p align="center">
-<img src='./assets/tab.png' width=400/> 
-</p>
-
-<p align="center">
-<img src='./assets/error_map.jpg' width=800/> 
-</p>
+![alt text](./assets/tab.png)
+![alt text](./assets/error_map.jpg)
 
 ## ⏳ To do
 
