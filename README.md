@@ -39,10 +39,10 @@ CUDA_VISIBLE_DEVICES=0 python evaluate_depth.py --data_path <your_data_path> --l
     --eval_split endovis --dataset endovis  --max_depth 150 --png --eval_mono
 ```
 
-## Quantitative and qualitative results
-
 ![alt text](./assets/tab.png)
-![alt text](./assets/error_map.jpg)
+
+📌📌 **Note that**, since our training split is slightly different from [AF-SfMLearner](https://github.com/ShuweiShao/AF-SfMLearner), we supplement the comparison results using their training setting [here](./AF_training_split/README.md).
+
 
 ## ⏳ To do
 
